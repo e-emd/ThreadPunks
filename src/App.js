@@ -1,10 +1,14 @@
 import React from 'react';
-//Components and Pages
+import Main from './components/Main';
 //Styles
 //Router
 
 function App() {
-  return <div className='App'></div>;
+  return (
+    <div className='App'>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
